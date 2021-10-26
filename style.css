@@ -147,7 +147,6 @@ header:not(.header) {
 }
 
 .intro {
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     padding-top: 70px;
@@ -163,25 +162,6 @@ header:not(.header) {
     justify-content: space-around;
     align-items: flex-start;
 } */
-=======
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 70px;
-}
-
-.introbio {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-}
-
-.introlinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-}
->>>>>>> 6767a41dee3631c3c8108f43319ec5373b8684e2
 
 .projects {
   display: flex;
