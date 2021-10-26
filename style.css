@@ -145,22 +145,20 @@ body {
   
 .intro {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 70px;
-}
-
-.introbio {
-    display: flex;
     flex-direction: column;
-    width: 350px;
+    padding-top: 70px;
+    width: 50%;
+    height: 100%;
+    background: red;
 }
 
-.introlinks {
+
+/* .introlinks {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-}
+} */
 
 .projects {
     display: flex;
