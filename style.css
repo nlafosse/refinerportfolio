@@ -152,7 +152,6 @@ header:not(.header) {
     align-items: center;
     padding-top: 70px;
     width: 100vw;
-    
 }
 
 .introbox {
@@ -241,17 +240,32 @@ header:not(.header) {
   border-radius: 16px; 
 }
 
-.quadboxes {
+.box { 
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
   width: 100vw;
-  background: red;
+  background: lightgreen;
 }
 
-.quadrow {
-  width: 350px;
+
+.grid2x2 {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 850px; 
+  background:lime;
 }
+
 
 .boxes {
-  background: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+  background: lightgray;
+  width: 300px;
+  height: 375px;
+  border-radius: 5px;
 }
+
+
