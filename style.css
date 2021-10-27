@@ -30,6 +30,8 @@ a {
   padding: 20px 20px;
   /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .header li a:hover,
@@ -149,7 +151,12 @@ header:not(.header) {
     flex-direction: column;
     align-items: center;
     padding-top: 70px;
-    width: 250px;
+    width: 100vw;
+    
+}
+
+.introbox {
+  width: 350px;
 }
 
 .intro h1 {
@@ -169,7 +176,6 @@ header:not(.header) {
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
-  margin-top: 0px;
   border-radius: 100%;   
 }
 
@@ -178,12 +184,6 @@ header:not(.header) {
   text-align: justify;
 }
 
-/* .introlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-} */
 
 .projects {
   display: flex;
@@ -195,31 +195,41 @@ header:not(.header) {
 
 .projectbox {
   display: flex;
-  width: 60em;
-  height: 15em;
+  justify-content: space-between;
+  background: lightgray;
+  width: 55em;
+  height: 20em;
+  margin-bottom: 60px;
+  border-radius: 15px;
 }
 
 .projectscreen {
-  background: lightgray;
+  background: black;
   flex-basis: 60%;
-  border-radius: 5%;
+  border-radius: 15px;
+  margin: 20px
 }
 
 .projectdesc {
-  flex-basis: 40%;
   background: white;
-  border-radius: 5%;
+  border-radius: 15px;
   border-style: solid;
   border-width: 1px;
+  padding: 0 50px;
 }
 
 .projectbox button {
-  background-color: #e99a25;
-  border: none;
-  color: white;
-  padding: 5px;
+  display: flex;
+  align-self: center;
+  background-color: white;
+  border: solid;
+  color: black;
+  font-size: 12px;
+  border-width: 1px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  margin: 4px 10px;
+  border-radius: 16px; 
 }
