@@ -11,7 +11,6 @@ a {
 /* header */
 
 .header {
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -29,8 +28,10 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .header li a:hover,
@@ -41,7 +42,6 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
 }
@@ -149,48 +149,87 @@ header:not(.header) {
 .intro {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 70px;
-    width: 50%;
-    height: 100%;
-    background: red;
+    width: 100vw;
+    
 }
 
+.introbox {
+  width: 350px;
+}
 
-/* .introlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-} */
+.intro h1 {
+    font-family: arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.intro a {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 100%;   
+}
+
+.intro p {
+  font-size: 12px;
+  text-align: justify;
+}
+
 
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 60px;
 }
 
-.projects h2 {
-  text-decoration: underline #e99a25;
-}
 
 .projectbox {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  background: lightgray;
+  width: 55em;
+  height: 20em;
+  margin-bottom: 60px;
+  border-radius: 15px;
+}
+
+.projectscreen {
+  background: black;
+  flex-basis: 60%;
+  border-radius: 15px;
+  margin: 20px
+}
+
+.projectdesc {
+  background: white;
+  border-radius: 15px;
   border-style: solid;
-  border-width: thin;
-  border-color: #000;
-  margin-top: 40px;
-  width: 600px;
-  height 300px;
+  border-width: 1px;
+  padding: 0 50px;
 }
 
 .projectbox button {
-  background-color: #e99a25;
-  border: none;
-  color: white;
-  padding: 5px;
+  display: flex;
+  align-self: center;
+  background-color: white;
+  border: solid;
+  color: black;
+  font-size: 12px;
+  border-width: 1px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  margin: 4px 10px;
+  border-radius: 16px; 
 }
