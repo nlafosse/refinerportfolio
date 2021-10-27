@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+.bio {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-end;
+
+}
+
+.threeFunFax h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.threeFunFax {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    background-color: coral;
+}
