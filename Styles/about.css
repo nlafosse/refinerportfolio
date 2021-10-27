@@ -10,11 +10,16 @@ body {
 
 .bio {
     display: flex;
-    margin-top: 16px;
-    margin-bottom: 60px;
+    margin: 10vw;
     align-items: center;
     box-sizing: border-box;
     justify-content: flex-end;
+
+}
+
+.profilePic {
+    display: flex;
+    padding: 5vw;
 
 }
 
@@ -29,10 +34,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 60px;
+    margin: 10vw;
     justify-content: space-evenly;
     background-color: coral;
 }
+
 
 
 
