@@ -1,8 +1,8 @@
 body {
-    margin: 0;
+    margin: 10vw;
     min-height: 100%;
     background-color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: Raleway, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -17,8 +17,14 @@ body {
 
 }
 
-.profilePic {
+.bio h1 {
     display: flex;
+    margin: 5vh;
+    font-size: large;
+}
+
+.profilePic {
+    display: block;
     padding: 5vw;
 
 }
