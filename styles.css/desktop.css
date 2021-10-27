@@ -115,7 +115,7 @@ input[type=submit]:hover {
 .projectbox {
   display: flex;
   justify-content: space-between;
-  background: lightgray;
+  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
   width: 55em;
   height: 20em;
   margin-bottom: 40px;
