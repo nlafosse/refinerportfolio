@@ -14,8 +14,15 @@ body {
     margin-bottom: 60px;
     align-items: center;
     box-sizing: border-box;
-    justify-content: flex-start;
+    justify-content: flex-end;
 
+}
+
+.threeFunFax h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
 }
 
 .threeFunFax {
@@ -26,5 +33,3 @@ body {
     justify-content: space-evenly;
     background-color: coral;
 }
-
-.bioBox {}
