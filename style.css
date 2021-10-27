@@ -167,21 +167,28 @@ header:not(.header) {
     margin-bottom: 1px;
 }
 
+.intro p {
+  font-size: 12px;
+  text-align: justify;
+}
+
 .intro a {
+  justify-content: space-around;
   background-color: grey;
   border: none;
   color: white;
   padding: 4px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 10px;
   border-radius: 100%;   
+  margin: 3px;
 }
 
-.intro p {
-  font-size: 12px;
-  text-align: justify;
+.introlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -207,7 +214,7 @@ header:not(.header) {
   background: black;
   flex-basis: 60%;
   border-radius: 15px;
-  margin: 20px
+  margin: 16px
 }
 
 .projectdesc {
@@ -215,7 +222,7 @@ header:not(.header) {
   border-radius: 15px;
   border-style: solid;
   border-width: 1px;
-  padding: 0 50px;
+  padding: 0 65px;
 }
 
 .projectbox button {
@@ -232,4 +239,19 @@ header:not(.header) {
   display: inline-block;
   margin: 4px 10px;
   border-radius: 16px; 
+}
+
+.quadboxes {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100vw;
+  background: red;
+}
+
+.quadrow {
+  width: 350px;
+}
+
+.boxes {
+  background: white;
 }
