@@ -9,7 +9,7 @@ body {
 
 a {
     color: #000;
-  }
+}
 
 .bio {
     display: flex;
@@ -32,7 +32,11 @@ a {
     padding: 3vw;
     background: #1275B1;
     height: 500px;
+<<<<<<< HEAD
     width: auto;
+=======
+
+>>>>>>> b1cbd37a16ecca56ffef01867a3d8e90df7b393b
 }
 
 .profilePic img {
@@ -95,12 +99,12 @@ a {
     padding: 10px 20px;
     text-decoration: none;
     height: 40px;
-  }
-  
-  .header .logo img {
+}
+
+.header .logo img {
     height: 100%;
     width: 100%;
-  }
+}
 
 /* menu */
 
