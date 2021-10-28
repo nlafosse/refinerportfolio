@@ -22,6 +22,7 @@ body {
     font-size: 60px;
     color: #1275B1;
     margin: 10vh;
+    line-height: 7vh;
 }
 
 .profilePic {
@@ -45,6 +46,10 @@ body {
     margin: 10vw;
     justify-content: space-evenly;
     background-color: #1275B1;
+}
+
+.threeFunFax p {
+    color: white
 }
 
 

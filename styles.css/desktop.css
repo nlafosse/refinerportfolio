@@ -1,76 +1,86 @@
 /* Contact Page css */
 
 body {
-    box-sizing: border-box;
-    margin: 10vw;
-    min-height: 100%;
-    background-color: #fff;
-    font-family: Raleway, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 10vw;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Raleway, Helvetica, sans-serif;
 }
 
 input[type=text],
 select,
 textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  justify-content: center;
+}
+
+.contactMessage {
+  background-color: #1275B1;
+  color: white;
+}
+
+.contactMessage p {
+  font-size: larger;
+  font: bold;
 }
 
 .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    justify-content: center;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  justify-content: center;
 }
 
 .row:after {
-    justify-content: center;
-    content: "";
-    display: table;
-    clear: both;
+  justify-content: center;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
 
-    .column,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 
 /* Index css */
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 70px;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  width: 100vw;
 }
 
 .introbox {
@@ -78,14 +88,14 @@ input[type=submit]:hover {
 }
 
 .intro h1 {
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 85px;
-    font-weight: 800;
-    width: 430px;
-    height: 121px;
-    left: 354px;
-    top: 377px;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 85px;
+  font-weight: 800;
+  width: 430px;
+  height: 121px;
+  left: 354px;
+  top: 377px;
 }
 
 .intro p {
@@ -95,7 +105,7 @@ input[type=submit]:hover {
 
 .intro a {
   justify-content: space-around;
-  
+
 }
 
 .introlinks {
@@ -164,10 +174,10 @@ input[type=submit]:hover {
   text-decoration: none;
   display: inline-block;
   margin: 4px 10px;
-  border-radius: 16px; 
+  border-radius: 16px;
 }
 
-.box { 
+.box {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -180,7 +190,7 @@ input[type=submit]:hover {
   min-height: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  width: 850px; 
+  width: 850px;
 }
 
 
