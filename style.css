@@ -258,8 +258,9 @@ header:not(.header) {
 .casebutton {
   display: flex;
   align-self: center;
-  background-color: white;
+  background-color: #fa6850;
   border: 1px solid #C4C4C4;
+  border-color: #FFF;
   color: black;
   font-size: 12px;
   padding: 10px 40px;
