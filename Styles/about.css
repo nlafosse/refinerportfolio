@@ -1,19 +1,22 @@
 body {
-    margin: 10vw;
-    min-height: 100%;
+    margin: 0;
+    min-height: 100vh;
     background-color: #fff;
     font-family: Raleway, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 20px;
+    /* line-height: 20px; */
     color: #333;
 }
+
+a {
+    color: #000;
+  }
 
 .bio {
     display: flex;
     margin: 10vw;
-    align-items: center;
     box-sizing: border-box;
-    justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -21,15 +24,34 @@ body {
     display: flex;
     font-size: 60px;
     color: #1275B1;
+<<<<<<< HEAD
     margin: 10vh;
     line-height: 7vh;
+=======
+    line-height: 55px;
+    padding-top: 50px;
+    width: 40%;
+}
+
+.bio p {
+    width: 50%;
+>>>>>>> 0dade71f79976b2a2e29b45133c91084754aa538
 }
 
 .profilePic {
-    display: block;
+    border-radius: 0 0 20px 20px;
     padding: 5vw;
-
+    background: #1275B1;
+    height: 500px;
+    
 }
+
+.profilePic img {
+    display: flex;
+    align-self: flex-end;
+    height: 470px;
+}
+
 
 .threeFunFax h2 {
     display: flex;
@@ -53,18 +75,6 @@ body {
 }
 
 
-
-
-
-body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: Helvetica, sans-serif;
-}
-
-a {
-    color: #000;
-}
 
 /* header */
 
@@ -102,7 +112,13 @@ a {
     float: left;
     padding: 10px 20px;
     text-decoration: none;
-}
+    height: 40px;
+  }
+  
+  .header .logo img {
+    height: 100%;
+    width: 100%;
+  }
 
 /* menu */
 
@@ -117,7 +133,7 @@ a {
 .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    /* float: right; */
     padding: 28px 20px;
     position: relative;
     user-select: none;

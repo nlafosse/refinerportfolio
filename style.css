@@ -43,8 +43,14 @@ a {
 .header .logo {
   display: block;
   float: left;
-  padding: 0;
+  padding: 10px 20px;
   text-decoration: none;
+  height: 40px;
+}
+
+.header .logo img {
+  height: 100%;
+  width: 100%;
 }
 
 /* menu */
@@ -249,7 +255,7 @@ header:not(.header) {
   justify-content: center;
 }
 
-.projectbox button {
+.casebutton {
   display: flex;
   align-self: center;
   background-color: white;
@@ -263,7 +269,6 @@ header:not(.header) {
   margin: 4px 10px;
   border-radius: 20px; 
   box-shadow: 0px 4px 4px 0px #00000040;
-  ;
 }
 
 .box { 
