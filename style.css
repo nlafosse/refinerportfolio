@@ -226,11 +226,11 @@ header:not(.header) {
 }
 
 .projbox1 {
-  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
+  background: linear-gradient(180deg, #BCCBFF 42.71%, #000000 70.31%);
 }
 
-.proj {
-  background: linear-gradient(180deg, #F9F9F9 0%, rgba(249, 249, 249, 0) 100%);
+.projbox2 {
+  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
 }
 
 .projectscreen {
@@ -254,6 +254,19 @@ header:not(.header) {
 
 .projectdesc h4 {
   color: gray;
+  margin-top: 0;
+  padding: 0 20px;
+}
+
+.projectdesc p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: -0.011em;
+  padding: 0 20px;
 }
 
 .projectbutton {

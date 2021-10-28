@@ -13,23 +13,30 @@ a {
 
 .bio {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 10vw;
-    box-sizing: border-box;
+    width: 80vw;
+    height: 816px;
     align-items: center;
 }
 
 .bio h1 {
-    display: flex;
     font-size: 60px;
     color: #1275B1;
-    margin: 10vh;
     line-height: 7vh;
+    width: 165px;
+}
+
+.bio p {
+    width: 300px;
+    height: 600px;
+    margin-bottom: 0;
 }
 
 .profilePic {
     border-radius: 0 0 20px 20px;
     padding: 3vw;
+    padding-top: 10vw;
     background: #1275B1;
     height: 500px;
     width: auto;
