@@ -219,11 +219,18 @@ header:not(.header) {
 .projectbox {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
   width: 55em;
   height: 20em;
   margin-bottom: 40px;
   border-radius: 20px;
+}
+
+.projbox1 {
+  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
+}
+
+.proj {
+  background: linear-gradient(180deg, #F9F9F9 0%, rgba(249, 249, 249, 0) 100%);
 }
 
 .projectscreen {

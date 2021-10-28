@@ -3,7 +3,6 @@ body {
     min-height: 100vh;
     background-color: #fff;
     font-family: Raleway, Helvetica, sans-serif;
-    font-size: 14px;
     /* line-height: 20px; */
     color: #333;
 }
@@ -14,28 +13,18 @@ a {
 
 .bio {
     display: flex;
+    justify-content: space-around;
     margin: 10vw;
     box-sizing: border-box;
     align-items: center;
-
 }
 
 .bio h1 {
     display: flex;
     font-size: 60px;
     color: #1275B1;
-<<<<<<< HEAD
     margin: 10vh;
     line-height: 7vh;
-=======
-    line-height: 55px;
-    padding-top: 50px;
-    width: 40%;
-}
-
-.bio p {
-    width: 50%;
->>>>>>> 0dade71f79976b2a2e29b45133c91084754aa538
 }
 
 .profilePic {
@@ -43,7 +32,7 @@ a {
     padding: 3vw;
     background: #1275B1;
     height: 500px;
-    
+    width: auto;
 }
 
 .profilePic img {
@@ -52,14 +41,6 @@ a {
     height: 470px;
 }
 
-
-.threeFunFax h2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 0px;
-    color: white;
-}
 
 .threeFunFax {
     display: flex;
