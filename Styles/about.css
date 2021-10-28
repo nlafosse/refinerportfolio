@@ -16,7 +16,7 @@ a {
     display: flex;
     margin: 10vw;
     box-sizing: border-box;
-    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -24,20 +24,27 @@ a {
     display: flex;
     font-size: 60px;
     color: #1275B1;
+    line-height: 55px;
+    padding-top: 50px;
     width: 40%;
 }
 
 .bio p {
-    width: 40%;
+    width: 50%;
 }
 
 .profilePic {
-    display: block;
-    border-width: 2px;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     padding: 5vw;
     background: #1275B1;
-    height: 400px;
+    height: 500px;
+    
+}
+
+.profilePic img {
+    display: flex;
+    align-self: flex-end;
+    height: 470px;
 }
 
 
