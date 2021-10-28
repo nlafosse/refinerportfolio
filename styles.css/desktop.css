@@ -63,6 +63,8 @@ input[type=submit]:hover {
 }
 
 
+/* Index css */
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -122,7 +124,6 @@ input[type=submit]:hover {
 }
 
 .projectscreen {
-  background: black;
   flex-basis: 60%;
   border-radius: 15px;
   margin: 16px
@@ -192,4 +193,3 @@ input[type=submit]:hover {
   height: 355px;
   border-radius: 15px;
 }
-
