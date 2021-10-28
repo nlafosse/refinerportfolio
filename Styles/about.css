@@ -32,11 +32,7 @@ a {
     padding: 3vw;
     background: #1275B1;
     height: 500px;
-<<<<<<< HEAD
     width: auto;
-=======
-
->>>>>>> b1cbd37a16ecca56ffef01867a3d8e90df7b393b
 }
 
 .profilePic img {
@@ -45,18 +41,36 @@ a {
     height: 470px;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10vw;
+    height: 250px;
+    background: #FA6850;
+}
+
+.gallerypic img {
+    height: 268px;
+}
 
 .threeFunFax {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin: 10vw;
-    justify-content: space-evenly;
+    margin: -7vw 10vw;
+    height: 250px;
     background-color: #1275B1;
 }
 
 .threeFunFax p {
-    color: white
+    align-items: flex-start;
+    color: white;
+    width: 200px;
+    font-size: 15px;
+    margin: 0;
 }
 
 
