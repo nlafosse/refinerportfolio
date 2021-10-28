@@ -249,7 +249,7 @@ header:not(.header) {
   justify-content: center;
 }
 
-.projectbox button {
+.casebutton {
   display: flex;
   align-self: center;
   background-color: white;
@@ -263,7 +263,6 @@ header:not(.header) {
   margin: 4px 10px;
   border-radius: 20px; 
   box-shadow: 0px 4px 4px 0px #00000040;
-  ;
 }
 
 .box { 
