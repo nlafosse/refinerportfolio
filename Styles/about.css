@@ -10,7 +10,7 @@ body {
 
 a {
     color: #000;
-  }
+}
 
 .bio {
     display: flex;
@@ -24,18 +24,8 @@ a {
     display: flex;
     font-size: 60px;
     color: #1275B1;
-<<<<<<< HEAD
     margin: 10vh;
     line-height: 7vh;
-=======
-    line-height: 55px;
-    padding-top: 50px;
-    width: 40%;
-}
-
-.bio p {
-    width: 50%;
->>>>>>> 0dade71f79976b2a2e29b45133c91084754aa538
 }
 
 .profilePic {
@@ -43,7 +33,7 @@ a {
     padding: 5vw;
     background: #1275B1;
     height: 500px;
-    
+
 }
 
 .profilePic img {
@@ -113,12 +103,12 @@ a {
     padding: 10px 20px;
     text-decoration: none;
     height: 40px;
-  }
-  
-  .header .logo img {
+}
+
+.header .logo img {
     height: 100%;
     width: 100%;
-  }
+}
 
 /* menu */
 
