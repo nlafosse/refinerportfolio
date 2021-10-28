@@ -24,6 +24,10 @@ a {
     display: flex;
     font-size: 60px;
     color: #1275B1;
+<<<<<<< HEAD
+    margin: 10vh;
+    line-height: 7vh;
+=======
     line-height: 55px;
     padding-top: 50px;
     width: 40%;
@@ -31,6 +35,7 @@ a {
 
 .bio p {
     width: 50%;
+>>>>>>> 0dade71f79976b2a2e29b45133c91084754aa538
 }
 
 .profilePic {
@@ -63,6 +68,10 @@ a {
     margin: 10vw;
     justify-content: space-evenly;
     background-color: #1275B1;
+}
+
+.threeFunFax p {
+    color: white
 }
 
 
