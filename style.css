@@ -43,8 +43,14 @@ a {
 .header .logo {
   display: block;
   float: left;
-  padding: 0;
+  padding: 10px 20px;
   text-decoration: none;
+  height: 40px;
+}
+
+.header .logo img {
+  height: 100%;
+  width: 100%;
 }
 
 /* menu */
