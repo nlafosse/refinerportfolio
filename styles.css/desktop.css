@@ -38,34 +38,59 @@ input[type=submit]:hover {
     width: 100vw;
     border-radius: 5px;
     justify-content: center;
+    
 }
 
 .contactMessage {
+  align-items: flex-end;
   background-color: #1275B1;
+  border-radius: 5px;
   color: white;
   text-align: center;
   width: 80%;
+  letter-spacing: -0.011em;
+  line-height: 10px;
 }
 
 .contactMessage p {
-  font-size: 40px;
+  font-size: 70px;
   font: bold;
 }
 
-.column {
-  display: flex;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-  justify-content: center;
+.contactMessage h2 {
+  font-size: 40px;
+  letter-spacing: -0.011em;
 }
 
-.row:after {
-  justify-content: center;
-  content: "";
-  display: table;
-  clear: both;
+.socialmedia {
+  margin-top: 20px;
 }
+
+.socialmedia a {
+  padding: 5px
+}
+
+.orangemessage {
+  width: 393px;
+  height: 51px;
+  left: 414px;
+  top: 497px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  /* or 130% */
+  text-align: center;
+  color: #FA6850;
+}
+
+.column {
+  width: 50%;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
 
 /* @media screen and (max-width: 600px) {
 
