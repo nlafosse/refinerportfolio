@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   /* font-family: Helvetica, sans-serif; */
   font-family: Raleway; src: url('https://fonts.googleapis.com/css?family=Raleway');
+  overflow-x: hidden;
 }
 
 a {
@@ -320,3 +321,78 @@ header:not(.header) {
 }
 
 
+.casestudies {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  margin-top: 200px;
+}
+
+.casetitle {
+  width: 800px;
+  margin-left: 75px;
+  margin-bottom: 50px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 65px;
+  line-height: 5px;
+}
+
+.casetitle h1 {
+  text-transform: capitalize;
+  color: #6A45BE;
+}
+
+.casetitle p {
+  font-family: Raleway;
+  font-style: normal;
+}
+
+.caseBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+}
+
+.caseDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  margin-bottom: 50px;
+}
+
+.caseScreen {
+  width: 100%;
+}
+
+.caseScreen img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.caseDesc {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0016em;
+  color: #000000;
+}
+
+.caseText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* width: 550px; */
+  padding: 50px;
+}
