@@ -14,28 +14,50 @@ font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 /* or 120% */
+width: 70vw;
 
 }
 
-input[type=text],
-select,
-textarea {
-  width: 100%;
+input[type=text] {
   padding: 12px;
-  border: 1px solid white;
+  border: 2px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+  width: 50%;
 }
 
-#fname, #lname, input {
+textarea {
+  padding: 12px;
+  border: 2px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+#fname, #lname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 50%;
 }
 
 input[type=submit] {
-  border: 2px solid #CCCCCC;
-  box-sizing: border-box;
-  border-radius: 3px;
+  background-color: #fa6850;
+  border: 1px solid #C4C4C4;
+  border-color: #FFF;
+  color: black;
+  font-size: 12px;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 10px;
+  border-radius: 20px; 
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 input[type=submit]:hover {
@@ -97,10 +119,10 @@ input[type=submit]:hover {
   color: #FA6850;
 }
 
-.column {
-  width: 50%;
+.formContain {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
-  padding-top: 20px;
 }
 
 
