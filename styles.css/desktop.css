@@ -7,6 +7,16 @@ body {
   font-family: Raleway; src: url('https://fonts.googleapis.com/css?family=Raleway');
 }
 
+form {
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* or 120% */
+
+}
+
 input[type=text],
 select,
 textarea {
@@ -18,12 +28,14 @@ textarea {
   resize: vertical;
 }
 
+#fname, #lname, input {
+  width: 50%;
+}
+
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+  border: 2px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
 }
 
 input[type=submit]:hover {
@@ -42,12 +54,12 @@ input[type=submit]:hover {
 }
 
 .contactMessage {
-  align-items: flex-end;
   background-color: #1275B1;
   border-radius: 5px;
   color: white;
   text-align: center;
-  width: 80%;
+  width: 90%;
+  height: 190px;
   letter-spacing: -0.011em;
   line-height: 10px;
 }
