@@ -392,7 +392,8 @@ header:not(.header) {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   /* width: 550px; */
-  padding: 50px;
+  padding: 0 350px;
+  margin-bottom: 50px;
+  margin-top:50px;
 }
