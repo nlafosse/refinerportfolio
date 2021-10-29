@@ -1,11 +1,10 @@
 /* Contact Page css */
 
 body {
-  box-sizing: border-box;
-  margin: 10vw;
-  min-height: 100%;
-  background-color: #fff;
-  font-family: Raleway;
+  margin: 0;
+  min-height: 100vh;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: Raleway; src: url('https://fonts.googleapis.com/css?family=Raleway');
 }
 
 input[type=text],
@@ -32,19 +31,24 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  justify-content: center;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    width: 100vw;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 .contactMessage {
   background-color: #1275B1;
   color: white;
+  text-align: center;
+  width: 80%;
 }
 
 .contactMessage p {
-  font-size: 20px;
+  font-size: 40px;
   font: bold;
 }
 
@@ -63,149 +67,19 @@ input[type=submit]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
   .column,
   input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
-}
+} */
 
-
-/* Index css */
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 70px;
-  width: 100vw;
-}
-
-.introbox {
-  width: 350px;
-}
-
-.intro h1 {
-  font-family: Raleway;
-  font-style: normal;
-  font-size: 85px;
-  font-weight: 800;
-  width: 430px;
-  height: 121px;
-  left: 354px;
-  top: 377px;
-}
-
-.intro p {
-  font-size: 12px;
-  text-align: justify;
-}
-
-.intro a {
-  justify-content: space-around;
-
-}
-
-.introlinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-
-
-.projectbox {
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(180deg, #2F45BB 0%, #CECCCC 100%);
-  width: 55em;
-  height: 20em;
-  margin-bottom: 40px;
-  border-radius: 15px;
-}
-
-.projectscreen {
-  flex-basis: 60%;
-  border-radius: 15px;
-  margin: 16px
-}
-
-.projectdesc {
-  background: white;
-  border-radius: 15px;
-  border-style: solid;
-  border-width: 1px;
-  padding: 0 15px;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.projectdesc h4 {
-  color: gray;
-}
-
-.projectbutton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.projectbox button {
-  display: flex;
-  align-self: center;
-  background-color: white;
-  border: solid;
-  color: black;
-  font-size: 12px;
-  border-width: 1px;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 10px;
-  border-radius: 16px;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  margin-top: 40px;
-}
-
-
-.grid2x2 {
-  display: flex;
-  min-height: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 850px;
-}
-
-
-.boxes {
-  display: flex;
-  justify-content: space-around;
-  margin: 9px 20px;
-  background: lightgray;
-  width: 330px;
-  height: 355px;
-  border-radius: 15px;
-}
 
 
 /* header */
+
 .header {
   top: 0;
   position: fixed;
@@ -321,4 +195,30 @@ input[type=submit]:hover {
 .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+header:not(.header) {
+  background: blue;
 }
